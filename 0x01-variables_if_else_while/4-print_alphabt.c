@@ -1,21 +1,20 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <stdio.h>                                                                                                                      
+#include <stdlib.h>                                                                                                                     
+#include <time.h>                                                                                                                       
 /**
- * main - Entry point
+ * main - Entry point                                                                                                             
  *
- * Return: Always success
- */
+ * Return: Always success                                                                                                              
+ */                                                                                                                                     
 int main(void)
-{
+{                                                                                                                                 
+	
+char low, e, q;                                                                                                                         
 
-char low, e, q;
+e = 'e';                                                                                                                                
+q = 'q';                                                                                                                                
 
-e = 'e';
-q = 'q';
-
-for (low = 'a'; low <= 'z'; low++)
-{
-	if (low != e && low != q)
-		putchar(low);
-}	
+for (low = 'a'; low <= 'z'; low++)                                                                                                      
+{                                                                                                                            		        if (low != e && low != q)    
+       		putchar(low);                                                                                                           
+}
